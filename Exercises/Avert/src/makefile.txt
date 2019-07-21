@@ -1,0 +1,31 @@
+#Compilers we can use. CC which is gcc and CXX which is g++.
+CC=gcc
+CXX=g++
+
+RM= rm -f
+CPPFLAGS= -g $(shell root -config --cflags)
+LDFLAGS= -g $(shell root -config --ldflags)
+LDLIBS= $(shell root -config --libs)
+
+SRCS= main.cpp a_z.cpp avert.cpp
+OBJS= $(subst .cpp, .o, $(SRCS))
+
+debug: CXXFLAGS += -DDEBUG -g
+debug: project
+
+all: project
+
+project: $(OBJS)
+  $(CXX) $(LDFLAGS) -o project $(OBJS) $(LDLIBS)
+
+main.o: main.cpp a_z.hpp avert.hpp
+
+a_z.o: a_z.cpp a_z.hpp
+
+avert.o: avert.cpp avert.hpp
+
+clean:
+  $(RM) $(OBJS)
+
+distclean: clean
+  $(RM) project

@@ -1,0 +1,10 @@
+Kinga 2500
+Pawel 1500
+Kinga 1400
+Pawel 1300
+Kinga 1200
+Pawel 1100
+Kinga 1000
+Pawel 900
+Kinga 800
+Pawel 700
