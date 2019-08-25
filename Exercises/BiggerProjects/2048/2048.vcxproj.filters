@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="2048.pro" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interface.cpp" />
+    <ClCompile Include="Load.cpp" />
+    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Save.cpp" />
+    <ClCompile Include="Show.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="Load.h" />
+    <ClInclude Include="Logic.h" />
+    <ClInclude Include="MyList.h" />
+    <ClInclude Include="Save.h" />
+    <ClInclude Include="Show.h" />
+  </ItemGroup>
+</Project>

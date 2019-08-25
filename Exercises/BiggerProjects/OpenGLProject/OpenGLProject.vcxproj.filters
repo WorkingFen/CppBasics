@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Basis.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Object.cpp" />
+    <ClCompile Include="src\Platform.cpp" />
+    <ClCompile Include="src\Ship.cpp" />
+    <ClCompile Include="src\shprogram.cpp" />
+    <ClCompile Include="src\Tracks.cpp" />
+    <ClCompile Include="src\Tree.cpp" />
+    <ClCompile Include="src\Wheel.cpp" />
+    <ClCompile Include="src\zs2_kanal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Basis.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Object.h" />
+    <ClInclude Include="src\Platform.h" />
+    <ClInclude Include="src\Ship.h" />
+    <ClInclude Include="src\shprogram.h" />
+    <ClInclude Include="src\Tracks.h" />
+    <ClInclude Include="src\Tree.h" />
+    <ClInclude Include="src\Wheel.h" />
+  </ItemGroup>
+</Project>
